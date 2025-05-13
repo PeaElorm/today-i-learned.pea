@@ -31,4 +31,32 @@ A script on the `example.com` backend can handle requests to the `/accounts` and
       <inout type="text" id="favBook" name="favBook">
       ```
       Note that the `for` attribute in the works in labels like it the `id` works in input. The `id` connects the input and the label
+
+      👉 To give users the a list of options to select from, you use the `<select></select>`
+      ``` html
+      <label for="color">Color</label>
+      <select id="color" name="color">
+        <option value="orange">Orange</option>
+        <option value="pink">Pink</option>
+      </select>
+      ```
+      Note: If the user submits the form without selecting an option, the browser uses the first options in the list.
+           you can also pre-select an option regardless of the order by using the "selected" attribute in the supposed default option.
+
+
+      ### Grouping Form Controls
+       * We use `<fieldset>` for grouping form controls.
+       * wrap your form controls in the  `<fieldset>` and then use the `<legend>` element above all the form controls you intend to group. The `<legend>` describes the controls.
+         ``` html
+         <fieldset>
+           <legend>Who is your favourite player?</legend>
+             <label for="messi">Messi</label>
+             <input type="radio" name="player" value="messi" id="messi">
+
+             <label for="ronaldo">Ronaldo</label>
+             <input type="radio" name="player" value="ronaldo" id="ronaldo">
+         </fieldset>
+         ```
+         <img width="1704" alt="image" src="https://github.com/user-attachments/assets/216cb21b-710d-4e2d-a419-17ec2ef0d0cc" />
+
     
