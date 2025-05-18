@@ -62,7 +62,7 @@ This the use of HTML markup for their purpose rather for their appearance. It in
     * ![image](https://github.com/user-attachments/assets/44839a48-fe40-4dce-9453-6cb455c79694)
    
     ### Summary
-    With sematics, its not about asthetics its about writing HTML with meaningful and purposeful elements. helps the user, enables search engines and assistive devices perform better!
+    With sematics, its not about asthetics its about writing HTML with meaningful and purposeful elements. this helps the user, enables search engines and assistive devices perform better!
 
 
 
